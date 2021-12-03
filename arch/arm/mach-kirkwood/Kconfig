@@ -25,6 +25,9 @@ config TARGET_LSXL
 config TARGET_POGO_E02
 	bool "pogo_e02 Board"
 
+config TARGET_DNS320L
+	bool "DLink DNS320L NAS"
+
 config TARGET_DNS325
 	bool "dns325 Board"
 
@@ -74,6 +77,7 @@ source "board/Marvell/guruplug/Kconfig"
 source "board/Marvell/sheevaplug/Kconfig"
 source "board/buffalo/lsxl/Kconfig"
 source "board/cloudengines/pogo_e02/Kconfig"
+source "board/d-link/dns320l/Kconfig"
 source "board/d-link/dns325/Kconfig"
 source "board/iomega/iconnect/Kconfig"
 source "board/keymile/Kconfig"

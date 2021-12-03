@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: GPL-2.0+
+#
+# Copyright (C) 2015
+# Gerald Kerma <dreagle@doukki.net>
+# Tony Dinh <mibodhi@gmail.com>
+
+if TARGET_DNS320L
+
+config SYS_BOARD
+	default "dns320l"
+
+config SYS_VENDOR
+	default "d-link"
+
+config SYS_CONFIG_NAME
+	default "dns320l"
+
+endif

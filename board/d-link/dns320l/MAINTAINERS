@@ -1,0 +1,6 @@
+DNS320L NAS
+M:
+S:	Maintained
+F:	board/d-link/dns320l/
+F:	include/configs/dns320l.h
+F:	configs/dns320l_defconfig

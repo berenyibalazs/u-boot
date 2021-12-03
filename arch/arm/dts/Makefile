@@ -50,6 +50,7 @@ dtb-$(CONFIG_ARCH_KIRKWOOD) += \
 	kirkwood-dockstar.dtb \
 	kirkwood-dreamplug.dtb \
 	kirkwood-ds109.dtb \
+	kirkwood-dns320l.dtb \
 	kirkwood-goflexnet.dtb \
 	kirkwood-guruplug-server-plus.dtb \
 	kirkwood-ib62x0.dtb \
